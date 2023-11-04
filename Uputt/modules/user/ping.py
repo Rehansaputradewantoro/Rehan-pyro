@@ -75,12 +75,10 @@ async def nearest_dc(client: Client, message: Message):
 async def pingme(client: Client, message: Message):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
+    kntl = edit_or_reply(message, "⚡")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await message.reply_text(
-        f"❏ **Pong !!**\n"
-        f"**╰• ** `%sms`\n"
-    )
+    await message.reply(f"❏**Pong** <code>{duration}</code>\n╰•**Uptime**  <code>{uptime}</code>")
 
 
 @Client.on_message(filters.command("Cpink", [""]) & filters.user(DEVS) & ~filters.me)
