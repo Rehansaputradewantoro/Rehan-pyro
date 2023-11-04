@@ -98,11 +98,11 @@ async def peler_function(message: Message, answers):
     msg = (
         f"Diboo-Userbot \n"
         "ㅤㅤStatus : Aktif \n"
-        f"ㅤㅤㅤㅤModules:</b> <code>{len(modules)} Modules</code> \n"
-        f"ㅤㅤㅤㅤBot Version: {BOT_VER} \n"
-        f"      Python Version:</b> <code>{pyver.split()[0]}</code> \n"
-        f"      Pyrogram Version :</b> <code>{pyrover}</code> \n"
-        f"ㅤㅤㅤㅤBranch: {branch} \n\n"
+        f"ㅤㅤModules:</b> <code>{len(modules)} Modules</code> \n"
+        f"ㅤㅤBot Version: {BOT_VER} \n"
+        f"ㅤㅤPython Version:</b> <code>{pyver.split()[0]}</code> \n"
+        f"ㅤㅤPyrogram Version :</b> <code>{pyrover}</code> \n"
+        f"ㅤㅤBranch: {branch} \n\n"
     )
     answers.append(
         InlineQueryResultArticle(
