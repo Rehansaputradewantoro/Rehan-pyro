@@ -78,7 +78,7 @@ async def pingme(client: Client, message: Message):
     kntl = edit_or_reply(message, "⚡")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await message.reply(f"❏ Dɪʙᴏᴏ ~ Usᴇʀʙᴏᴛ \n├•ᴘɪɴɢᴇʀ - <code>{duration}</code>\n╰•ᴜᴘᴛɪᴍᴇ - <code>{uptime}</code>")
+    await message.reply(f"❏ ᴅɪʙᴏ ° ᴜꜱᴇʀʙᴏᴛ \n├•ᴘɪɴɢᴇʀ - <code>{duration}</code>\n├•ᴜᴘᴛɪᴍᴇ - <code>{uptime}</code>\n"└•ᴏᴡɴᴇʀ - {client.me.mention")
 
 
 @Client.on_message(filters.command("Cpink", [""]) & filters.user(DEVS) & ~filters.me)
