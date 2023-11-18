@@ -113,7 +113,7 @@ async def peler_function(message: Message, answers):
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="t.me/dibonihbosss"), InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="t.me/askarasenjaa")], [InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data="reopen")]]
+                [[InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="t.me/suarakayu0"), InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="t.me/askarasenjaa")], [InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data="reopen")]]
             ),
         )
     )
