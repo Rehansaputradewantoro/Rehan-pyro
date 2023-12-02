@@ -1,13 +1,24 @@
-FROM worker/uputt-userbot:buster
+FROM python:3.10-slim-buster
 
-RUN git clone -b uputt-userbot https://github.com/iamuput/uputt-userbot /home/uputtuserbot/ \
-    && chmod 777 /home/pyrozuuserbot \
-    && mkdir /home/pyrozuuserbot/bin/
+RUN apt-get autoremove -y \
+    && apt-get update -y && apt-get upgrade -y \
+    && apt-get install -y --no-install-recommends \
+    git \
+    curl \
+    python3-dev \
+    ffmpeg \
+    neofetch \
+    apt-utils \
+    libmediainfo0v5 \
+    && apt-get clean \
+    && rm -rf /var/lib/apt/lists/*WORKDIR /app
 
-COPY ./sample_config.env ./config.env* /home/uputtuserbot/
+COPY . /app/
 
-WORKDIR /home/uputtuserbot/
+WORKDIR /app/
 
-RUN pip install -r requirements.txt
+RUN pip3 install -U pip
 
-CMD ["bash","start"]
+RUN pip3 install --no-cache-dir -r requirements.txt
+
+CMD bash start
