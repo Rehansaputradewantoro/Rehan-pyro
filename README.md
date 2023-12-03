@@ -37,6 +37,7 @@
 - [OnlyMeriz](https://github.com/Onlymeriz)
 - [Kazu](https://github.com/ionmusic)
 - [Uputt](https://github.com/iamuput)
+- [Lucifer](https://t.me/LuciferBukanRobot)
 
 ## Credit 
 - Zaid Userbot
