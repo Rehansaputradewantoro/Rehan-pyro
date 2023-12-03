@@ -54,3 +54,14 @@ async def executor(client: Client, message: Message):
         evaluation = "Success"
     final_output = f"**OUTPUT**:\n```{evaluation.strip()}```"
     await edit_or_reply(message, final_output)
+
+
+@Client.on_message(filters.command("upgrade", cmd) & filters.me)
+async def _(client, message):
+    await the_reboot(client, message)
+
+async def the_reboot(client, message):
+    await message.delete()
+    os.system("git pull")
+    os.execl(sys.executable, sys.executable, "-m", "Uputt")
+
