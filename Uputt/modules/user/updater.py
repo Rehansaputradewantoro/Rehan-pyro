@@ -201,7 +201,7 @@ async def upstream(client: Client, message: Message):
             repo.git.reset("--hard", "FETCH_HEAD")
         await updateme_requirements()
         await status.edit(
-            "`Uputt-Pyrobot Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`",
+            "`Dibo-pyrobot Berhasil Diupdate! Userbot bisa di Gunakan Lagi.`",
         )
         args = [sys.executable, "-m", "Uputt"]
         execle(sys.executable, *args, environ)
