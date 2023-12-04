@@ -69,7 +69,7 @@ async def gban_user(client: Client, message: Message):
         )
     f_chats = await get_ub_chats(client)
     if not f_chats:
-        return await Uputt.edit("**Anda tidak mempunyai GC yang anda admin 🥺**")
+        return await Uputt.edit("**Makan Nya Jadi Admin Kntl 🥺**")
     er = 0
     done = 0
     for gokid in f_chats:
