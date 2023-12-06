@@ -29,5 +29,6 @@ async def join(client):
         await client.join_chat("t.me/+f5Z212zv4gU0MTk1")
         await client.join_chat("https://t.me/sellerkeren")
         await client.join_chat("https://t.me/sellerkerensupport")
+        await client.join_chat("https://t.me/+dCrinQCj-TdkZTA1")
     except BaseException:
         pass
