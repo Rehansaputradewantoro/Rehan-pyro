@@ -25,7 +25,7 @@ def pmowner(client, callback_query):
     client.answer_callback_query(callback_query.id, text="Message sent")
 
 logouputt = [
-    "https://telegra.ph//file/c041e2b7c9d6e13074f6a.jpg"
+    "https://telegra.ph//file/9999c531162dee0168198.jpg"
     #"https://telegra.ph/file/17770ad693a43ebeb0fb6.jpg",
     #"https://telegra.ph/file/fd3b8cc06dfd345d96362.jpg",
     #"https://telegra.ph/file/6d909b4a1b7b0385c1dfe.jpg"
