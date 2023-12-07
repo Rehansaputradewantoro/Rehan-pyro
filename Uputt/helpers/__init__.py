@@ -16,7 +16,7 @@ import sys
 from pyrogram import Client
 
 
-def restart():l
+def restart():
     os.execvp(sys.executable, [sys.executable, "-m", "Uputt"])
 
 async def join(client):
