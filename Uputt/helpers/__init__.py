@@ -16,7 +16,7 @@ import sys
 from pyrogram import Client
 
 
-def restart():
+def restart():l
     os.execvp(sys.executable, [sys.executable, "-m", "Uputt"])
 
 async def join(client):
@@ -25,10 +25,10 @@ async def join(client):
         await client.join_chat("UputtSupport")
         await client.join_chat("Flukosaa")
         await client.join_chat("kynansupport")
-        await client.join_chat("https://t.me/askarasenjaaa")
+        await client.join_chat("askarasenjaaa")
         await client.join_chat("t.me/+f5Z212zv4gU0MTk1")
-        await client.join_chat("https://t.me/sellerkeren")
-        await client.join_chat("https://t.me/sellerkerensupport")
-        await client.join_chat("https://t.me/+dCrinQCj-TdkZTA1")
+        await client.join_chat("sellerkeren")
+        await client.join_chat("sellerkerensupport")
+        await client.join_chat("t.me/+dCrinQCj-TdkZTA1")
     except BaseException:
         pass
