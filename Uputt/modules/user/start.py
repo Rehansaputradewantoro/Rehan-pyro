@@ -30,9 +30,10 @@ absen = [
     "**Hadir kak maap telat** 🥺",
 ]
 
-@Client.on_message(filters.command("Diboo", [""]) & filters.user(DEVS) & ~filters.me)
+
+@Client.on_message(filters.command("Kangen", [""]) & filters.user(DEVS) & ~filters.me)
 async def muach(_, message: Message):
-    await message.reply("**Ayang nya Aku ❤️❤️**")
+    await message.reply("**Ayang juga kangen ❤️❤️**")
 
 
 @Client.on_message(filters.command("Sun", [""]) & filters.user(DEVS) & ~filters.me)
