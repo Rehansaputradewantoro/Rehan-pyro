@@ -17,13 +17,13 @@
 ◉ **Keterangan:** Daftar semua pengguna sudo.
 """
 
-from Ayra._misc import sudoers
+from Dibo-Userbot._misc import sudoers
 from telethon.tl.types import User
 
-from . import ayra_bot, ayra_cmd, get_string, inline_mention, udB
+from . import Dibo-Userbot_bot, Dibo-Userbot_cmd, get_string, inline_mention, udB
 
 
-@ayra_cmd(pattern="[Aa][d][d][s][u][d][o]( (.*)|$)", fullsudo=False)
+@Dibo-Userbot_cmd(pattern="[Aa][d][d][s][u][d][o]( (.*)|$)", fullsudo=False)
 async def _(ayra):
     inputs = ayra.pattern_match.group(1).strip()
     if ayra.reply_to_msg_id:
