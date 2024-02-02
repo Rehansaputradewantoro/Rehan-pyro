@@ -13,7 +13,7 @@ from .help import *
 
 @Client.on_message(filters.command(["asupan", "ptl"], cmd) & filters.me)
 async def asupan_cmd(client: Client, message: Message):
-    Uputt = await edit_or_reply(message, "`Tunggu Sebentar...`")
+    Uputt = await edit_or_reply(message, "`Bentar Buka Xnxx.com...`")
     await gather(
         Uputt.delete(),
         client.send_video(
@@ -22,7 +22,7 @@ async def asupan_cmd(client: Client, message: Message):
                 [
                     asupan.video.file_id
                     async for asupan in client.search_messages(
-                        "punyakenkan", filter=enums.MessagesFilter.VIDEO
+                        "punyaRehans", filter=enums.MessagesFilter.VIDEO
                     )
                 ]
             ),
@@ -32,7 +32,7 @@ async def asupan_cmd(client: Client, message: Message):
 
 @Client.on_message(filters.command(["bkp"], cmd) & filters.me)
 async def bkp_cmd(client: Client, message: Message):
-    Uputt = await edit_or_reply(message, "`Tunggu Sebentar...`")
+    Uputt = await edit_or_reply(message, "`Bentar Buka Step Sex...`")
     await gather(
         Uputt.delete(),
         client.send_video(
