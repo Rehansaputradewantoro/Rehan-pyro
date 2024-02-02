@@ -1038,7 +1038,7 @@ async def lipkol(client: Client, message: Message):
     await asyncio.sleep(2)
     await e.edit("Kangeeen 👉👈")
     await asyncio.sleep(2)
-    await e.edit("Pingiinn Slipkool Yaaang 🥺👉👈")
+    await e.edit("Need Slipcall Yaaang 🥺👉👈")
     
 
 @Client.on_message(filters.command(["nakal", "bandel"], cmd) & filters.me)
@@ -1050,6 +1050,8 @@ async def nakal(client: Client, message: Message):
     await e.edit("Aku Gak Like Ayang 😠")
     await asyncio.sleep(2)
     await e.edit("Pokoknya Aku Gak Like Ih 😠")
+    await asyncio.sleep(2)
+    await e.edit("Yuk Ngewe 😍")
 
 
 @Client.on_message(filters.command(["awk", "awikwok"], cmd) & filters.me)
@@ -1441,7 +1443,7 @@ async def santet(client: Client, message: Message):
     await asyncio.sleep(0.03)
     await typew.edit(str(number) + "%   ████████████████▌")
     await asyncio.sleep(1)
-    await typew.edit("**Target Berhasil Tersantet Online 🥴**")
+    await typew.edit("**Target Berhasil Tersantet Online 🥴 Beli Bot PC @Revans505**")
 
 
 add_command_help(
