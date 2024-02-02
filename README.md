@@ -9,8 +9,8 @@
 ```console
  $ sudo apt-get update -y
  $ sudo apt-get upgrade
- $ git clone https://github.com/iamuput/Uputt-Pyrobot
- $ cd Uputt-Pyrobot
+ $ git clone https://github.com/Rehansaputradewantoro/Rehan-pyro
+ $ cd Rehan-pyro
  $ python3 -m venv venv
  $ source venv/bin/act*
  $ pip3 install -U-r req*
@@ -22,13 +22,13 @@
 </h3>
 
 ```console
- $ screen -S Uputt
- $ python3 -m Uputt
+ $ screen -S Rehan
+ $ python3 -m Rehan
 ```
 
 ## Heroku Deploy!
 <h3 align="center">Click The Button</h3>
-<a href="https://heroku.com/deploy?template=https://github.com/dibonihbos/Dibo-Userbot"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
+<a href="https://heroku.com/deploy?template=https://github.com/Rehansaputradewantoro/Rehan-pyro"><img src="https://www.herokucdn.com/deploy/button.svg"></a>
 </div>
 
 
@@ -37,7 +37,7 @@
 - [OnlyMeriz](https://github.com/Onlymeriz)
 - [Kazu](https://github.com/ionmusic)
 - [Uputt](https://github.com/iamuput)
-- [Lucifer](https://t.me/LuciferBukanRobot)
+- [Rehan](https://t.me/Revanstoreya)
 
 ## Credit 
 - Zaid Userbot
@@ -50,5 +50,5 @@
 
 <p align="center">𝐒𝐮𝐩𝐩𝐨𝐫𝐭 / 𝐂𝐡𝐚𝐧𝐧𝐞𝐥 ----> </p>
 
-<p align="center"><a href="https://t.me/dibonihbosss"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-Channel-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
-<p align="center"><a href="https://t.me/uputtSupport"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-𝐒𝐮𝐩𝐩𝐨𝐫𝐭-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
+<p align="center"><a href="https://t.me/Revanstoreya"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-Channel-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
+<p align="center"><a href="https://t.me/Revanstoreya"><img src="https://img.shields.io/badge/ᴛᴇʟᴇɢʀᴀᴍ-𝐒𝐮𝐩𝐩𝐨𝐫𝐭-black?&style=for-the-badge&logo=telegram" width="220" height="38.45"></a></p>
