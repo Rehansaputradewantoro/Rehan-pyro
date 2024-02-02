@@ -60,11 +60,11 @@ async def tg_lock(
 ):
     if lock:
         if perm not in permissions:
-            return await message.edit_text("Already locked.")
+            return await message.edit_text("Done locked.")
         permissions.remove(perm)
     else:
         if perm in permissions:
-            return await message.edit_text("Already Unlocked.")
+            return await message.edit_text("Done Unlocked.")
         permissions.append(perm)
 
     permissions = {perm: True for perm in list(set(permissions))}
@@ -105,7 +105,7 @@ async def locks_func(client: Client, message: Message):
         )
     elif parameter == "all" and state == "lock":
         await client.set_chat_permissions(chat_id, ChatPermissions())
-        await message.edit_text(f"Locked Everything in {message.chat.title}")
+        await message.edit_text(f"Berhasil Mengkunci Group {message.chat.title}")
 
     elif parameter == "all" and state == "unlock":
         await client.set_chat_permissions(
@@ -121,7 +121,7 @@ async def locks_func(client: Client, message: Message):
                 can_pin_messages=False,
             ),
         )
-        await message.edit(f"Unlocked Everything in {message.chat.title}")
+        await message.edit(f"Berhasil Membuka Kunci Group {message.chat.title}")
 
 
 @Client.on_message(filters.command("locks", cmd) & filters.me)
