@@ -7,6 +7,10 @@
       "description": "Buatlah Sebuah Bot Di BotFather Lalu Salin Token Bot Nya",
       "required": true
     },
+    "BOTLOG_CHATID": {
+      "description": "Buatlah Sebuah Bot Log Chat ID Di Group Log tersebut",
+      "requeired" : true
+    },
     "STRING_SESSION1": {
       "description": "Dapatkan String Session Pyrogram di Grup » https://t.me/ZoneDangerSexStringBot » Lalu ketik Start",
       "required": true
