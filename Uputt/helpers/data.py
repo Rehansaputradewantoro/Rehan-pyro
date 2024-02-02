@@ -3,7 +3,7 @@ from Uputt import CMD_HELP
 class Data:
 
     text_help_menu = (
-        "**Menu Inline Diboo-Userbot**\n\n  **Prefixes:** ., ?, !, *"
+        "**Menu Inline Revans-Userbot**\n\n  **Prefixes:** ., ?, !, *"
         .replace(",", "")
         .replace("[", "")
         .replace("]", "")
