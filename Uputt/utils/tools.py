@@ -16,14 +16,14 @@ from typing import Tuple
 from PIL import Image, ImageDraw, ImageFont
 
 absen = [
-    "**Hadir bang** 😁",
-    "**Hadir kak** 😉",
-    "**Hadir dong** 😁",
-    "**Hadir ganteng** 🥵",
-    "**Hadir bro** 😎",
-    "**Sok2²an Absen Si Kontoolll**"
-    "**Sipaling Absen Anjengg**"
-    "**Hadir kak maap telat** 🥺",
+    "**Hadir bang Revans** 😁",
+    "**Hadir kak Revans** 😉",
+    "**Hadir dong Revans** 😁",
+    "**Hadir ganteng Revans** 🥵",
+    "**Hadir Anjink ** 🖕",
+    "**Sih Ngentod Ngapain Sih**"
+    "**Kyyyyaaaa** 😍"
+    "**woy Beli Bot Sini Anjink** 🐷",
 ]
 
 
