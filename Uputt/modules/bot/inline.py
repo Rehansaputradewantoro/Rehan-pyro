@@ -56,7 +56,7 @@ async def get_readable_time(seconds: int) -> str:
 async def alive_function(message: Message, answers):
     uptime = await get_readable_time((time.time() - StartTime))
     msg = f"""
-<b> — Hi, I'm Alive.</b>
+<b> — Hi, I'm Alive Stars Userbot.</b>
 
 <b> • User :</b> {message.from_user.mention}
 <b> • Plugin :</b> <code>{len(CMD_HELP)} Modules</code>
@@ -70,7 +70,7 @@ async def alive_function(message: Message, answers):
         InlineQueryResultArticle(
             title="alipp",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/b42b7a4a22ba89287cad4.jpg",
+            thumb_url="https://telegra.ph//file/5a49b59d73f96a4ccea2f.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
@@ -96,7 +96,7 @@ async def pingme(client: Client, message: Message):
 
 async def peler_function(message: Message, answers):
     msg = (
-        f"Diboo-Userbot \n"
+        f"Revans-Userbot \n"
         "ㅤㅤStatus : Aktif \n"
         f"ㅤㅤModules:</b> <code>{len(modules)} Modules</code> \n"
         f"ㅤㅤBot Version: {BOT_VER} \n"
@@ -108,12 +108,12 @@ async def peler_function(message: Message, answers):
         InlineQueryResultArticle(
             title="alive",
             description="Check Bot's Stats",
-            thumb_url="https://telegra.ph//file/c041e2b7c9d6e13074f6a.jpg",
+            thumb_url="https://telegra.ph//file/5a49b59d73f96a4ccea2f.jpg",
             input_message_content=InputTextMessageContent(
                 msg, parse_mode=ParseMode.HTML, disable_web_page_preview=True
             ),
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="t.me/suarakayu0"), InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="t.me/askarasenjaa")], [InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data="reopen")]]
+                [[InlineKeyboardButton(text="ᴄʜᴀɴɴᴇʟ", url="t.me/Revanstoreya"), InlineKeyboardButton(text="ᴏᴡɴᴇʀ", url="t.me/ZoneDangerSex")], [InlineKeyboardButton(text="ᴍᴇɴᴜ", callback_data="reopen")]]
             ),
         )
     )
@@ -126,7 +126,7 @@ async def help_function(answers):
         InlineQueryResultArticle(
             title="Help Article!",
             description="Check Command List & Help",
-            thumb_url="https://telegra.ph/file/b42b7a4a22ba89287cad4.jpg",
+            thumb_url="https://telegra.ph//file/5a49b59d73f96a4ccea2f.jpg",
             input_message_content=InputTextMessageContent(
                 Data.text_help_menu.format(len(CMD_HELP))
             ),
