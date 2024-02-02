@@ -78,24 +78,24 @@ async def pingme(client: Client, message: Message):
     kntl = edit_or_reply(message, "⚡")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await message.reply(f"❏ ᴅɪʙᴏ ° ᴜꜱᴇʀʙᴏᴛ \n├•ᴘɪɴɢᴇʀ - <code>{duration}</code>\n├•ᴜᴘᴛɪᴍᴇ - <code>{uptime}</code>\n╰•ᴏᴡɴᴇʀ - <code>{client.me.mention}</code>")
+    await message.reply(f"❏ Revans ° ᴜꜱᴇʀʙᴏᴛ \n├•ᴘɪɴɢᴇʀ - <code>{duration}</code>\n├•ᴜᴘᴛɪᴍᴇ - <code>{uptime}</code>\n╰•ᴏᴡɴᴇʀ - <code>{client.me.mention}</code>")
 
 
-@Client.on_message(filters.command("Cpink", [""]) & filters.user(DEVS) & ~filters.me)
-@Client.on_message(filters.command("pink", cmd) & filters.me)
+@Client.on_message(filters.command("Cping", [""]) & filters.user(DEVS) & ~filters.me)
+@Client.on_message(filters.command("ping", cmd) & filters.me)
 async def pink(client: Client, message: Message):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    Uputt = await message.reply("**Sabarr Anjing Ngelagg...**")
+    Uputt = await message.reply("**Sabarr Lagi Dikocokin sinyal nya biar GA Ngelagg 🍑**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await Uputt.edit(
-        f"**❏Diboo-Userbot**\n"
+        f"**❏Revans-Userbot**\n"
         f"**├• PING   :** "
         f"`%sms` \n"
         f"**├•  Uptime  :** "
         f"`{uptime}` \n"
-        f"**└•  Dajjal   :** {client.me.mention}" % (duration)
+        f"**└•  @ZoneDangerSex   :** {client.me.mention}" % (duration)
     )
   
 
@@ -106,7 +106,7 @@ async def pink(client: Client, message: Message):
 async def uputt(client: Client, message: Message):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    xx = await edit_or_reply(message, "KOCOKINNNN SAYANGG")
+    xx = await edit_or_reply(message, "KOCOKIN SAYANGG")
     await xx.edit("8=✊==D")
     await xx.edit("8==✊=D")
     await xx.edit("8===✊D")
@@ -133,6 +133,6 @@ async def uputt(client: Client, message: Message):
         f"❏ **CROTTT!!🥵**\n"
         f"├• **AHHH🤤** - `%sms`\n"
         f"├• **Togel -** `{uptime}` \n"
-        f"└• **Dajjal :** {client.me.mention}" % (duration)
+        f"└• **@ZoneDangerSex :** {client.me.mention}" % (duration)
     )
 
