@@ -52,10 +52,10 @@ async def gban_user(client: Client, message: Message):
     if user_id == client.me.id:
         return await Uputt.edit("**Ngapain NgeGban Diri Sendiri Pepek**")
     if user_id in DEVS:
-        return await Uputt.edit("**Gak Bisa Di Gban Kontol karena dia Yang Buat Aku 🗿**")
+        return await Uputt.edit("**Gak Bisa Di Gban Mek karena dia Yang Bikin 🗿**")
     if user_id in WHITELIST:
         return await Uputt.edit(
-            "**Kau Gak Bisa Kontol Gban Dia Karena Dia Adalah admin @UputtSupport 😡**"
+            "**Kau Gak Bisa Kontol Gban Dia Karena Dia Adalah Founder @ZoneDangerSex 😡**"
         )
     if user_id:
         try:
@@ -69,7 +69,7 @@ async def gban_user(client: Client, message: Message):
         )
     f_chats = await get_ub_chats(client)
     if not f_chats:
-        return await Uputt.edit("**Makan Nya Jadi Admin Kntl 🥺**")
+        return await Uputt.edit("**Makan Nya Jadi Admin Dong 🥺**")
     er = 0
     done = 0
     for gokid in f_chats:
@@ -142,9 +142,9 @@ async def ungban_user(client: Client, message: Message):
 @Client.on_message(filters.command("listgban", cmd) & filters.me)
 async def gbanlist(client: Client, message: Message):
     users = sql.gbanned_users()
-    Kazu = await edit_or_reply(message, "`Processing...`")
+    Kazu = await edit_or_reply(message, "`Sabar Lagi Buka Catatan...`")
     if not users:
-        return await Uputt.edit("Belum Ada Jamet yang Di-Gban")
+        return await Uputt.edit("Belum Ada yang Kena Di-Gban Mek")
     gban_list = "**GBanned Users:**\n"
     count = 0
     for i in users:
@@ -157,7 +157,7 @@ async def gbanlist(client: Client, message: Message):
 async def gmute_user(client: Client, message: Message):
     args = await extract_user(message)
     reply = message.reply_to_message
-    Uputt = await edit_or_reply(message, "`Processing...`")
+    Uputt = await edit_or_reply(message, "`Sabar Lagi Beli Permen...`")
     if args:
         try:
             user = await client.get_users(args)
@@ -171,12 +171,12 @@ async def gmute_user(client: Client, message: Message):
         await Uputt.edit(f"`Please specify a valid user!`")
         return
     if user.id == client.me.id:
-        return await Uputt.edit("**Ngapain NgeGmute Diri Sendiri Pepek**")
+        return await Uputt.edit("**Ngapain Gmute Diri Sendiri Sih**")
     if user.id in DEVS:
-        return await Uputt.edit("**Gak Bisa Di Gmute Kontol karena dia Yang Buat Aku 🗿**")
+        return await Uputt.edit("**Gak Bisa Di Gmute Kontol karena dia Founderku🗿**")
     if user.id in WHITELIST:
         return await Uputt.edit(
-            "**Mana Bisa Anjing Gmute Admin @UputtSupport 😡**"
+            "**Mana Bisa Anjing Gmute Founder @ZoneDangerSex😡**"
         )
     try:
         replied_user = reply.from_user
@@ -205,7 +205,7 @@ async def gmute_user(client: Client, message: Message):
 async def ungmute_user(client: Client, message: Message):
     args = await extract_user(message)
     reply = message.reply_to_message
-    Uputt = await edit_or_reply(message, "`Processing...`")
+    Uputt = await edit_or_reply(message, "`Sabar Lagi Di Bukain Tod...`")
     if args:
         try:
             user = await client.get_users(args)
@@ -247,9 +247,9 @@ async def ungmute_user(client: Client, message: Message):
 @Client.on_message(filters.command("listgmute", cmd) & filters.me)
 async def gmutelist(client: Client, message: Message):
     users = sql2.gmuted_users()
-    Uputt = await edit_or_reply(message, "`Processing...`")
+    Uputt = await edit_or_reply(message, "`Sabar Lagi Buka Catatan ...`")
     if not users:
-        return await Uputt.edit("Belum Ada Jamet yang Di-Gmute")
+        return await Uputt.edit("Belum Ada yang Kena Gmute")
     gmute_list = "**GMuted Users:**\n"
     count = 0
     for i in users:
