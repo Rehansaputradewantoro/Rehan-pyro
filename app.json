@@ -1,6 +1,6 @@
 {
-  "name": "Diboo-Userbot",
-  "description": "[Diboo-Userbot] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.  Powered by Uputt-Pyrobot.",
+  "name": "Rehan-pyro",
+  "description": "[Rehan-pyro] adalah userbot Telegram modular yang berjalan di Python3 dengan Library Pyrogram.  Powered by Rehan-pyro.",
   "stack": "heroku-22",
   "env": {
     "BOT_TOKEN": {
@@ -8,7 +8,7 @@
       "required": true
     },
     "STRING_SESSION1": {
-      "description": "Dapatkan String Session Pyrogram di Grup » https://t.me/UputtSupport » Lalu ketik #string",
+      "description": "Dapatkan String Session Pyrogram di Grup » https://t.me/ZoneDangerSexStringBot » Lalu ketik Start",
       "required": true
     },
         "OPENAI_API_KEY": {
