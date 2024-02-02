@@ -27,31 +27,31 @@ profile_photo = "Uputt/modules/cache/pfp.jpg"
 @Client.on_message(filters.command(["block"], cmd) & filters.me)
 async def block_user_func(client: Client, message: Message):
     user_id = await extract_user(message)
-    Uputt = await edit_or_reply(message, "`Processing . . .`")
+    Uputt = await edit_or_reply(message, "`Loading . . .`")
     if not user_id:
         return await message.edit(
             "Berikan User ID/Username atau reply pesan pengguna untuk membuka blokir."
         )
     if user_id == client.me.id:
-        return await Uputt.edit("anda stress harap segera minum obat.")
+        return await Uputt.edit("aku stress harap segera minum obat.")
     await client.block_user(user_id)
     umention = (await client.get_users(user_id)).mention
-    await message.edit(f"**Berhasil Memblokir Jamet Ini** {umention}")
+    await message.edit(f"**Berhasil mengirim ke rumah sakit jiwa si Jamet Ini** {umention}")
 
 
 @Client.on_message(filters.command(["unblock"], cmd) & filters.me)
 async def unblock_user_func(client: Client, message: Message):
     user_id = await extract_user(message)
-    Uputt = await edit_or_reply(message, "`Processing . . .`")
+    Uputt = await edit_or_reply(message, "`Crott . . .`")
     if not user_id:
         return await message.edit(
             "Berikan User ID/Username atau reply pesan pengguna untuk membuka blokir."
         )
     if user_id == client.me.id:
-        return await Uputt.edit("anda stress harap segera minum obat.")
+        return await Uputt.edit("aku stress harap segera minum obat.")
     await client.unblock_user(user_id)
     umention = (await client.get_users(user_id)).mention
-    await message.edit(f"**Berhasil Membuka Blokir Jamet ini ✌** {umention}")
+    await message.edit(f"**Berhasil Membuka Baju Dan Celana si Jamet ini ✌** {umention}")
 
 
 @Client.on_message(filters.command(["setname"], cmd) & filters.me)
