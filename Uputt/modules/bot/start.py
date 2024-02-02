@@ -25,7 +25,7 @@ def pmowner(client, callback_query):
     client.answer_callback_query(callback_query.id, text="Message sent")
 
 logouputt = [
-    "https://telegra.ph//file/9999c531162dee0168198.jpg"
+    "https://telegra.ph//file/5a49b59d73f96a4ccea2f.jpg"
     #"https://telegra.ph/file/17770ad693a43ebeb0fb6.jpg",
     #"https://telegra.ph/file/fd3b8cc06dfd345d96362.jpg",
     #"https://telegra.ph/file/6d909b4a1b7b0385c1dfe.jpg"
@@ -37,11 +37,11 @@ alive_logo = random.choice(logouputt)
 async def start(app, message):
     chat_id = message.chat.id
     file_id = alive_logo
-    caption = "Hi, Saya Asisstant Diboo-Userbot\nTidak Ada Yang Special Kecuali Indomie."
+    caption = "Hi, Saya Asisstant Revans-Userbot\nTidak Ada Yang Special Kecuali Kamu."
     reply_markup = InlineKeyboardMarkup([
         [
-            InlineKeyboardButton("Support", url="https://t.me/UputtSupport"),
-            InlineKeyboardButton("Store", url="https://t.me/dibonihbosss"),
+            InlineKeyboardButton("Support", url="https://t.me/ZoneDangerSex"),
+            InlineKeyboardButton("Store", url="https://t.me/Revanstoreya"),
         ],
     ])
 
