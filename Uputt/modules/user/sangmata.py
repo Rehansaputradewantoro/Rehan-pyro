@@ -25,7 +25,7 @@ from .help import *
 @Client.on_message(filters.command(["sg", "sa", "sangmata"], cmd) & filters.me)
 async def sg(client: Client, message: Message):
     args = await extract_user(message)
-    lol = await edit_or_reply(message, "Gua kepo, Sapa si namalu pepek....`")
+    lol = await edit_or_reply(message, "Gua kepo, Emang Gaboleh? ....`")
     if args:
         try:
             user = await client.get_users(args)
@@ -41,7 +41,7 @@ async def sg(client: Client, message: Message):
 
     async for stalk in client.search_messages(bot, query="Name", limit=1):
         if not stalk:
-            await message.edit_text("**Orang Ini Belum Pernah Mengganti Namanya**")
+            await message.edit_text("**Orang Ini Belum Pernah Kelihatan**")
             return
         elif stalk:
             await message.edit(stalk.text)
